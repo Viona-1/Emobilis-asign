@@ -1,0 +1,47 @@
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Perpetua;
+}
+
+body{
+      background-color: aqua;
+
+
+
+
+
+}
+.container{
+          text-align: center;
+            padding: 100px 20px;
+
+}
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding:20px 10% ;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+
+
+  .navbar a{
+    font-size: 18px;
+    color: #b3d4fc;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+
+  }
+
+
+  .navbar a:hover{
+    color: #56ff33;
+
+  }
+
+}
